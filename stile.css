@@ -1,0 +1,17 @@
+.text__samp {
+    font-weight: 700;
+}
+
+.cnop__my {
+    text-decoration: none;
+    color: brown;
+}
+
+.cnop__my:hover {
+    color: blue;
+}
+
+.cnop_Yznu {
+    text-decoration: none;
+    color: green;
+}
