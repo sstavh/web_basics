@@ -1,0 +1,18 @@
+.hiro-logo {
+    text-align: center;
+    color: red;
+}
+
+.box-obh {
+    border: 1px solid red;
+}
+
+.List {
+    text-decoration: none;
+    color: green;
+}
+
+.span-list {
+    text-decoration: none;
+    font-weight: 800;
+}
