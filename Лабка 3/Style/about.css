@@ -25,6 +25,7 @@ body {
     background-color: slategray;
     padding: 15px 20px;
     border-radius: 14px;
+    transition: all 1s ease-in;
 }
 
 .exit:hover {

@@ -1,0 +1,78 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./img/74450-552602288_medium\ копія.mp4");
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: azure;
+    
+}
+
+.video-bagr {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.form-box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: rgba(70, 69, 69, 0.8);
+    border: 1px solid rgba(70, 69, 69, 0.8);
+    border-radius:14px;
+    width: 400px;
+    height: 720px;
+    z-index: 2;
+    padding: 25px 35px;
+}
+
+.img-form {
+    width: 400px;
+}
+
+.sumbitform  {
+        background-color: rgb(220, 220, 220);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 12px 20px;
+        color: black;
+        margin-right: 25px;
+        font-size: 12px;
+        border-radius: 8px;
+        font-weight: 700px;
+        font-family:"Montserrat", serif;
+        transition: all 1s ease-in;
+    }
+    
+.sumbitform:hover {
+        color: aliceblue;
+        background-color: black;
+        border: 1px solid black;
+        
+ }
+
+ .resetform {
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    color: aliceblue;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family:"Montserrat", serif;
+    transition: all 1s ease-in;
+ }
+
+ .resetform:hover {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+}

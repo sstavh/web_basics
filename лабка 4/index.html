@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="./stile.css">
+  <title>Lab#4</title> 
+</head> 
+<body> 
+    
+    <div class="container">
+        <video class="video-bagr" autoplay muted loop id="myVideo">
+            <source class="video-bagr" src="./img/74450-552602288_medium копія.mp4" type="video/mp4">
+        </video>
+        <div class="form-box">
+            <h1 class="logo-form">Моя перша HTML-форма</h1> 
+        <form name="myForm"action="https://httpbin.org/get" method="get"> 
+          <fieldset> 
+            <legend class="lebal-form">Введіть дані про себе</legend> 
+            <label>Ім'я:<input class="nume-text" type="text" name="name"></label><br> 
+            <br> 
+            <label>Дата народження:<input class="nume-date"  type="date" name="birthday_date"></label><br> 
+            <br> 
+            <label>Gmail:<input class="nume-eml" type="email" name="gmail"></label><br> 
+            <br> 
+            <label>Повідомлення:<textarea name="comment"></textarea></label><br> 
+            <br> 
+          </fieldset> 
+          <fieldset> 
+            <legend class="lebal-form">Ваші улюблені напої?</legend> 
+            <label><input type="checkbox" name="drink" value="coffee"> Кава</label><br> 
+            <label><input type="checkbox" name="drink" value="tea"> Чай</label><br> 
+            <label><input type="checkbox" name="drink" value="juice"> Сік</label><br> 
+            <label><input type="checkbox" name="drink" value="water"> Вода</label><br> 
+          </fieldset> 
+          <fieldset> 
+            <legend class="lebal-form">Моя національність</legend> 
+            <label><input type="radio" name="nationality" value="ukrainian"> Українець</label><br> 
+            <label><input type="radio" name="nationality" value="german"> Німець</label><br> 
+            <label><input type="radio" name="nationality" value="polish"> Поляк</label><br> 
+          </fieldset> 
+          <br class="knip-knop"> 
+            <button type="submit" class="sumbitform">Відправити</button> 
+            <button type="reset" class="resetform">Очистити</button> 
+          <br> 
+        </form> 
+        <br> 
+        <img
+        class="img-form"
+          srcset="
+            https://fastly.picsum.photos/id/846/300/500.jpg?hmac=VlZoven6Rdm2vUihmiPxbu_js35_-p5QLsIaauPqCF8   500w,
+            https://fastly.picsum.photos/id/931/1000/400.jpg?hmac=chHa57pa9hzq4yVN-deezekLezv39lFHHJ-N8hd0s0c 1000w
+          "
+          alt="img"
+        />
+        </div>
+    </div>
+  <script src="./main.js"> </script>
+</body> 
+</html>
