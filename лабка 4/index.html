@@ -17,7 +17,7 @@
         <form name="myForm"action="https://httpbin.org/get" method="get"> 
           <fieldset> 
             <legend class="lebal-form">Введіть дані про себе</legend> 
-            <label>Ім'я:<input class="nume-text" type="text" name="name"></label><br> 
+            <label>Ім'я:<input  class="nume-text" type="text" name="name"></label><br> 
             <br> 
             <label>Дата народження:<input class="nume-date"  type="date" name="birthday_date"></label><br> 
             <br> 
@@ -28,16 +28,21 @@
           </fieldset> 
           <fieldset> 
             <legend class="lebal-form">Ваші улюблені напої?</legend> 
-            <label><input type="checkbox" name="drink" value="coffee"> Кава</label><br> 
+            <label><input  type="checkbox" name="drink" value="coffee"> Кава</label><br> 
             <label><input type="checkbox" name="drink" value="tea"> Чай</label><br> 
             <label><input type="checkbox" name="drink" value="juice"> Сік</label><br> 
             <label><input type="checkbox" name="drink" value="water"> Вода</label><br> 
           </fieldset> 
           <fieldset> 
             <legend class="lebal-form">Моя національність</legend> 
-            <label><input type="radio" name="nationality" value="ukrainian"> Українець</label><br> 
-            <label><input type="radio" name="nationality" value="german"> Німець</label><br> 
-            <label><input type="radio" name="nationality" value="polish"> Поляк</label><br> 
+            
+              
+              <label for="ukr"> Українець</label><br>
+              <input id="ukr" type="radio" name="nationality" value="ukrainian">
+            <label for="nim"> Німець</label><br> 
+            <input id="nim" type="radio" name="nationality" value="german">
+            <label for="pol"> Поляк</label><br> 
+            <input id="pol" type="radio" name="nationality" value="polish">
           </fieldset> 
           <br class="knip-knop"> 
             <button type="submit" class="sumbitform">Відправити</button> 
