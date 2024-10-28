@@ -1,0 +1,84 @@
+body {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.our-adv {
+    font-weight: 700;
+}
+
+.hiro-title {
+    font-family: "Montserrat", sans-serif;;
+    color: black;
+    line-height: 0.5;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.hiro-title__pidlogo {
+    padding-top: 60px;
+    padding-bottom: 0;
+    color: black;
+    font-family: "Montserrat", sans-serif;;
+    line-height: 0.5;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+p {
+    text-align:  justify;
+    line-height: 1;
+}
+
+.double-line {
+    line-height: 2;
+}
+
+.our-adv {
+    background-image: url( 'http://picsum.photos/id/357/700/400?blur=5');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.lil {
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mail-box {
+    display:inline-block;
+    max-width: 150px;
+    background-color: #E3FFF6;
+    border: 5px solid #C2E4C2;
+}
+
+.mail-box__text {
+    padding: 5px  20px;
+}
+
+.ruler {
+        width: 150px;
+    background-color: lime;
+    text-align: center;
+}
