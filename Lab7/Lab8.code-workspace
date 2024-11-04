@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../Lab8"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Desktop/проекити/клуб собак"
+		},
+		{
+			"path": "../Lab6"
+		},
+		{
+			"path": "../Lab5"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lab6"
+	}
+}

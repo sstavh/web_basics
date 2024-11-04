@@ -163,3 +163,13 @@ console.log(addLargeNumbers('999999999999999', '1'));*/
 
     return result;
 }*/
+
+var foo = 1;  
+function bar() { 
+     
+    if (!foo) {  
+        var foo = 10;  
+    }  
+    alert(foo);  
+}  
+bar(); 

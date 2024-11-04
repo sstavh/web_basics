@@ -12,7 +12,7 @@ body {
 
 
 .addresses-wrapper {
-    margin-top: 15%;
+    margin-top: 20%;
     justify-content: center;
     gap: 25px;
     display: flex;
@@ -26,8 +26,9 @@ body {
         margin-top: 0;
         display: block;
     }
-    .address {
-        width: 150px;
+    .address {  
+       flex: 1;
+        width: 100%;
     }
 }
 
@@ -51,7 +52,6 @@ body {
     color: black;
     background-color: #FFE4C4;
     padding: 40px 20px;
-    display: block;
     border: 1px solid #FFE4C4;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -108,4 +108,23 @@ body {
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
+}
+
+.tu {
+    background-color: rgb(203, 253, 236);
+    border: 1px solid rgb(203, 253, 236);
+    
+}
+
+.tu:hover {
+    background-color: rgb(224, 250, 242);
+}
+
+.tre {
+    background-color: rgb(246, 221, 133);
+    border: 1px solid rgb(246, 221, 133);
+}
+
+.tre:hover {
+    background-color: rgb(255, 240, 185);
 }
